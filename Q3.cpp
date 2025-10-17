@@ -33,5 +33,5 @@ int main() {
     cout << "\nNumber of points in the first quadrant: " << countFirstQuadrant << endl;
 
     return 0;
-	
+}
 
