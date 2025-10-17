@@ -15,7 +15,7 @@ int main() {
 
     
     for (int i = 0; i < 12; i++) {
-        cout << "Month " << i + 1 <<":";
+        cout << "Month " << i + 1 <<" Name:";
         cin >> records[i].month;
         cout << "Sales Amount: ";
         cin >> records[i].amount;
