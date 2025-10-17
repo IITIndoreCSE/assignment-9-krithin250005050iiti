@@ -12,12 +12,13 @@ int main() {
     int countFirstQuadrant = 0;
 
  
-    cout << "Enter the x and y coordinates for 7 points:\n";
+    cout << "Enter coordinates for 7 points (x,y):" << endl;
+    
     for (int i = 0; i < 7; i++) {
-        cout << "Point " << i + 1 << ":\n";
-        cout << "x = ";
+        cout << "Point " << i + 1 << " - x:"<< endl;
+        
         cin >> points[i].x;
-        cout << "y = ";
+        cout << "Point " << i + 1 << " - y:";
         cin >> points[i].y;
     }
 
@@ -32,6 +33,5 @@ int main() {
     cout << "\nNumber of points in the first quadrant: " << countFirstQuadrant << endl;
 
     return 0;
-}
 	
 
